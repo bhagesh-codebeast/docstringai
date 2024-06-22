@@ -25,3 +25,5 @@ class generate_docstring:
 
 if __name__ == "__main__":
 	instance = generate_docstring()
+	import ollama
+	print(ollama.list())
