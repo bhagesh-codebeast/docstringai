@@ -1,3 +1,3 @@
 #!/bin/bash
-nohup ollama serve &
+nohup ollama start &
 python3 /data/docstringai.py
